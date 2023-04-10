@@ -1,7 +1,5 @@
 # pikvm-orangepizero2
 
-[原文](https://github.com/gngpp/pikvm-orangepizero2/blob/main/README.txt)
-
 [Images](https://drive.google.com/open?id=1bOtd9FwgLO2Cj4SauVdK410bDGqvtwhP&usp=drive_copy)
 
 - First Boot
