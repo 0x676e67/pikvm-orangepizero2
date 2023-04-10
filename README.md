@@ -12,7 +12,7 @@
 apt update && sync && apt -y upgrade
 apt -y install avahi-daemon git curl wget ntp
 mv /boot/dtb/allwinner/sun50i-h616-orangepi-zero2.dtb /boot/dtb/allwinner/sun50i-h616-orangepi-zero2.dtb.bak
-wget http://www.industrie-optimierer.ch/tmp/PiKVM/PiKVM_OrangePizero2/sun50i-h616-orangepi-zero2.dtb -O /boot/dtb/allwinner/sun50i-h616-orangepi-zero2.dtb
+wget https://raw.githubusercontent.com/gngpp/pikvm-orangepizero2/main/sun50i-h616-orangepi-zero2.dtb -O /boot/dtb/allwinner/sun50i-h616-orangepi-zero2.dtb
 sync && reboot
 ```
 
