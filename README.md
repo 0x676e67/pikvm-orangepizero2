@@ -1,5 +1,6 @@
 # pikvm-orangepizero2
 
+[]
 [Images](https://drive.google.com/open?id=1bOtd9FwgLO2Cj4SauVdK410bDGqvtwhP&usp=drive_copy)
 
 - First Boot
@@ -9,13 +10,11 @@ apt update && sync && apt -y upgrade
 apt -y install avahi-daemon git curl wget ntp
 mv /boot/dtb/allwinner/sun50i-h616-orangepi-zero2.dtb /boot/dtb/allwinner/sun50i-h616-orangepi-zero2.dtb.bak
 wget http://www.industrie-optimierer.ch/tmp/PiKVM/PiKVM_OrangePizero2/sun50i-h616-orangepi-zero2.dtb -O /boot/dtb/allwinner/sun50i-h616-orangepi-zero2.dtb
-
-sync
-reboot
+sync && reboot
 ```
 
 - Second Boot
-- 
+
 > Don't use Custom Patches, say N !!!
   
 ```shell
