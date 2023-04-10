@@ -43,8 +43,7 @@ cd kvmd-armbian
 You can add a USB-Stick with sda1 ext4 an add in '/etc/fstab' this line:
 
 ```shell
-/dev/mmcblk1p2  /var/lib/kvmd/msd   ext4  nodev,nosuid,noexec,ro,errors=remount-ro,data=journal,X-kvmd.otgmsd-root=/var/lib/
-kvmd/msd,X-kvmd.otgmsd-user=kvmd  0  0
+/dev/mmcblk1p2  /var/lib/kvmd/msd   ext4  nodev,nosuid,noexec,ro,errors=remount-ro,data=journal,X-kvmd.otgmsd-root=/var/lib/kvmd/msd,X-kvmd.otgmsd-user=kvmd  0  0
 ```
 
 ```yaml
