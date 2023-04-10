@@ -25,8 +25,8 @@ git clone https://github.com/xe5700/kvmd-armbian.git
 cd kvmd-armbian
 mv install.sh install.sh.bak
 mv config.sh config.sh.bak
-https://raw.githubusercontent.com/gngpp/pikvm-orangepizero2/main/install.sh
-https://raw.githubusercontent.com/gngpp/pikvm-orangepizero2/main/config.sh
+wget https://raw.githubusercontent.com/gngpp/pikvm-orangepizero2/main/install.sh
+wget https://raw.githubusercontent.com/gngpp/pikvm-orangepizero2/main/config.sh
 chmod +x install.sh
 ./install.sh
 ```
