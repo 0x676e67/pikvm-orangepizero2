@@ -25,8 +25,8 @@ git clone https://github.com/xe5700/kvmd-armbian.git
 cd kvmd-armbian
 mv install.sh install.sh.bak
 mv config.sh config.sh.bak
-wget http://www.industrie-optimierer.ch/tmp/PiKVM/PiKVM_OrangePizero2/install.sh
-wget http://www.industrie-optimierer.ch/tmp/PiKVM/PiKVM_OrangePizero2/config.sh
+https://raw.githubusercontent.com/gngpp/pikvm-orangepizero2/main/install.sh
+https://raw.githubusercontent.com/gngpp/pikvm-orangepizero2/main/config.sh
 chmod +x install.sh
 ./install.sh
 ```
