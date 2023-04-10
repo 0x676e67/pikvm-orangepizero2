@@ -1,5 +1,7 @@
 # pikvm-orangepizero2
 
+<img src="./pikvm.png">
+
 [Images](https://drive.google.com/open?id=1bOtd9FwgLO2Cj4SauVdK410bDGqvtwhP&usp=drive_copy)
 
 - First Boot
