@@ -4,7 +4,7 @@
 
 - [Original](http://www.industrie-optimierer.ch/tmp/PiKVM/PiKVM_OrangePizero2)
 
-- [Images](https://drive.google.com/open?id=1bOtd9FwgLO2Cj4SauVdK410bDGqvtwhP&usp=drive_copy)
+- OS Image: https://drive.google.com/open?id=1bOtd9FwgLO2Cj4SauVdK410bDGqvtwhP&usp=drive_copy
 
 - First Boot
 
