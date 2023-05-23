@@ -326,24 +326,24 @@ install-dependencies() {
   echo "-> Install TTYD"
   apt install -y ttyd
   if [ ! -e /usr/bin/ttyd ]; then
-    # Build and install ttyd
-    # cd /tmp
-    # apt-get install -y build-essential cmake git libjson-c-dev libwebsockets-dev
-    # git clone --depth=1 https://github.com/tsl0922/ttyd.git
-    # cd ttyd && mkdir build && cd build
-    # cmake ..
-    # make -j && make install
+    Build and install ttyd
+    cd /tmp
+    apt-get install -y build-essential cmake git libjson-c-dev libwebsockets-dev
+    git clone --depth=1 https://github.com/tsl0922/ttyd.git
+    cd ttyd && mkdir build && cd build
+    cmake ..
+    make -j && make install
     # Install binary from GitHub
-    arch=$(dpkg --print-architecture)
-    latest=$(wget -q -O- $MIRROR_GITHUB_API/repos/tsl0922/ttyd/releases/latest | jq -r ".tag_name")
-    if [ $arch = arm64 ]; then
-      arch='aarch64'
-    fi
-    if [ $arch = amd64 ]; then
-      arch='x86_64'
-    fi
-    wget "$MIRROR_GITHUB/tsl0922/ttyd/releases/download/$latest/ttyd.$arch" -O /usr/bin/ttyd
-    chmod +x /usr/bin/ttyd
+    # arch=$(dpkg --print-architecture)
+    # latest=$(wget -q -O- $MIRROR_GITHUB_API/repos/tsl0922/ttyd/releases/latest | jq -r ".tag_name")
+    # if [ $arch = arm64 ]; then
+    #   arch='aarch64'
+    # fi
+    # if [ $arch = amd64 ]; then
+    #   arch='x86_64'
+    # fi
+    # wget "$MIRROR_GITHUB/tsl0922/ttyd/releases/download/$latest/ttyd.$arch" -O /usr/bin/ttyd
+    # chmod +x /usr/bin/ttyd
   fi
 
   if [[ $USE_JANUS -eq 1 ]]; then
